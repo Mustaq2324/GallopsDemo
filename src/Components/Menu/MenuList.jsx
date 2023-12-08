@@ -33,7 +33,7 @@ function MenuList() {
                 of gluten exposure.
               </p>
               <div className="flex  gap-5 px-4 ">
-                <div className="h-[1060px]  lg:h-[800px] w-[2px] bg-[#e8af33]"></div>
+                <div className="h-[900px]  lg:h-[800px] w-[2px] bg-[#e8af33]"></div>
                 <div className="flex flex-col gap-3 pb-5">
                   <div className="flex flex-col gap-2">
                     <h5 className="text-[#e8af33] flex justify-between">
@@ -116,7 +116,7 @@ function MenuList() {
                 Grilled Portobello $4.00, Sautéed Shrimp $7.00
               </p>
               <div className="flex  gap-5 px-4 ">
-                <div className="h-[820px]  lg:h-[590px] w-[2px] bg-[#e8af33]"></div>
+                <div className="h-[730px]  lg:h-[590px] w-[2px] bg-[#e8af33]"></div>
                 <div className="flex flex-col gap-3 pb-5">
                   <div className="flex flex-col gap-2">
                     <h5 className="text-[#e8af33] flex justify-between uppercase">
@@ -182,7 +182,7 @@ function MenuList() {
                 pepper slaw $1.00
               </p>
               <div className="flex  gap-5 px-4 ">
-                <div className="h-[1140px]  lg:h-[850px] w-[2px] bg-[#e8af33]"></div>
+                <div className="h-[990px]  lg:h-[850px] w-[2px] bg-[#e8af33]"></div>
                 <div className="flex flex-col gap-3 pb-5">
                   <div className="flex flex-col gap-2">
                     <h5 className="text-[#e8af33] flex justify-between uppercase">
@@ -265,7 +265,7 @@ function MenuList() {
                 pepper slaw $1.00
               </p>
               <div className="flex  gap-5 px-4 ">
-                <div className="h-[520px]  lg:h-[430px] w-[2px] bg-[#e8af33]"></div>
+                <div className="h-[475px]  lg:h-[430px] w-[2px] bg-[#e8af33]"></div>
                 <div className="flex flex-col gap-3 pb-5">
                   <div className="flex flex-col gap-2">
                     <h5 className="text-[#e8af33] flex justify-between uppercase">
