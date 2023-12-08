@@ -1,17 +1,12 @@
-import React, { useEffect, useRef } from 'react';
 import video from '../assets/images/Gallops Video.mp4';
 
 function Video() {
-  const videoRef = useRef(null);
-
-  useEffect(() => {
-    videoRef.current.play().catch(error => console.error('Error playing video:', error));
-  }, []);
+ 
 
   return (
     <div>
       <video
-        ref={videoRef}
+       
         autoPlay
         id="coverVideo"
         loop
