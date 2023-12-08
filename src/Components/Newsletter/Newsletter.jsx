@@ -1,5 +1,6 @@
 import React from 'react'
-import bg from "../../assets/images/Backdrop4.png"
+import bg from "../../assets/images/backdrop4.png"
+
 function Newsletter() {
   return (
     <div className="flex flex-col lg:flex-row ">

@@ -4,6 +4,7 @@ import logosm from "../assets/images/opentable copy.png"
 import { IoPersonOutline } from "react-icons/io5";
 import { FaRegClock } from "react-icons/fa6"
 import bg from "../assets/images/Backdrop3.png"
+
 function Reservation() {
   return (
     <div>

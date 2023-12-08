@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "../../assets/images/Backdrop2.png";
+import bg from "../../assets/images/backdrop2.png";
 
 function MenuList() {
   return (
