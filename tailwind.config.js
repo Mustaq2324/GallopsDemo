@@ -9,5 +9,5 @@ export default {
       'vast-shadow': ['Lato', 'serif'],
     },},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }

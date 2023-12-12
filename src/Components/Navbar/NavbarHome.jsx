@@ -76,7 +76,7 @@ function handleclick(){
                    <Link to="/Event" >EVENTS</Link>
                 </li>
                 <li className="text-white cursor-pointer hover:text-[#E8AF33]">
-                  <a href="https://tmt.spotapps.co/job-listings?spot_id=91648&callback_url=http%3A%2F%2Fgalloskitchen.com%2F&_gl=1%2a1umxaoc%2a_ga%2aMjA2OTI3ODQxMi4xNzAwNzExMDg0%2a_ga_VG24VK2VKT%2aMTcwMTc1NzkzMS4yMS4xLjE3MDE3NTg2MTEuMC4wLjA.%2a_ga_6JZXZZX2BB%2aMTcwMTc1NzkzMS4yMS4xLjE3MDE3NTg2MTEuMC4wLjA.&_ga=2.72203153.347819125.1701674166-2069278412.1700711084"> JOBS</a>
+                 <Link to="/Career">CAREER</Link>
                 </li>
                
                 <div className="h-[30px] cursor-pointer w-[30px] hover:bg-[#E8AF33] flex items-center justify-center">
@@ -119,7 +119,7 @@ function handleclick(){
                    <Link to="/Event" >EVENTS</Link>
                 </li>
                 <li onClick={handleclick} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#E8AF33]">
-                  <a href="https://tmt.spotapps.co/job-listings?spot_id=91648&callback_url=http%3A%2F%2Fgalloskitchen.com%2F&_gl=1%2a1umxaoc%2a_ga%2aMjA2OTI3ODQxMi4xNzAwNzExMDg0%2a_ga_VG24VK2VKT%2aMTcwMTc1NzkzMS4yMS4xLjE3MDE3NTg2MTEuMC4wLjA.%2a_ga_6JZXZZX2BB%2aMTcwMTc1NzkzMS4yMS4xLjE3MDE3NTg2MTEuMC4wLjA.&_ga=2.72203153.347819125.1701674166-2069278412.1700711084"> JOBS</a>
+                 <Link to="/Career">CAREER</Link>
                 </li>
                 
               </ul>
@@ -178,7 +178,7 @@ function handleclick(){
                <Link to="/Event" >EVENTS</Link>
             </li>
             <li onClick={handleclick} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#E8AF33]">
-              <a href="https://tmt.spotapps.co/job-listings?spot_id=91648&callback_url=http%3A%2F%2Fgalloskitchen.com%2F&_gl=1%2a1umxaoc%2a_ga%2aMjA2OTI3ODQxMi4xNzAwNzExMDg0%2a_ga_VG24VK2VKT%2aMTcwMTc1NzkzMS4yMS4xLjE3MDE3NTg2MTEuMC4wLjA.%2a_ga_6JZXZZX2BB%2aMTcwMTc1NzkzMS4yMS4xLjE3MDE3NTg2MTEuMC4wLjA.&_ga=2.72203153.347819125.1701674166-2069278412.1700711084"> JOBS</a>
+             <Link to="/Career">CAREER</Link>
             </li>
             
           </ul>
@@ -199,7 +199,7 @@ function handleclick(){
                <Link to="/Event" >EVENTS</Link>
             </li>
             <li className="text-white cursor-pointer hover:text-[#E8AF33]">
-              <a href="https://tmt.spotapps.co/job-listings?spot_id=91648&callback_url=http%3A%2F%2Fgalloskitchen.com%2F&_gl=1%2a1umxaoc%2a_ga%2aMjA2OTI3ODQxMi4xNzAwNzExMDg0%2a_ga_VG24VK2VKT%2aMTcwMTc1NzkzMS4yMS4xLjE3MDE3NTg2MTEuMC4wLjA.%2a_ga_6JZXZZX2BB%2aMTcwMTc1NzkzMS4yMS4xLjE3MDE3NTg2MTEuMC4wLjA.&_ga=2.72203153.347819125.1701674166-2069278412.1700711084"> JOBS</a>
+             <Link to="/Career">CAREER</Link>
             </li>
            
            <div className="h-[30px] cursor-pointer w-[30px] hover:bg-[#E8AF33] flex items-center justify-center">
