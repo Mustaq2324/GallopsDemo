@@ -43,12 +43,10 @@ function Events() {
           alert('An error occurred while submitting the form. Please try again.');
         }
       };
-    
+
   return (
     <div className="bg-[#F9F9FB] pb-5">
       <div className="bg-cover bg-center  h-[400px]" style={{ backgroundImage: `url(${bg})` }}>
-    
-       
       </div>
       <div className="bg-white pb-5 w-[90%] lg:w-[80%] mt-10 mx-auto px-4">
         <h1 className="text-3xl font-vast-shadow text-[#528C9E] pt-5">Event Request</h1>
