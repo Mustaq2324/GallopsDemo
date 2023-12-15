@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import 'typeface-vast-shadow';
-import bg from "../../assets/images/b5.png"
+import bg from "../../assets/images/b6.jpg"
 function About() {
   return (
 <div>

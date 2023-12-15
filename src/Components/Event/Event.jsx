@@ -61,13 +61,13 @@ function Events() {
               <h1 className="text-2xl text-[#528C9E]">Your Contact Information</h1>
             </div>
         
-            <div className="ms-5 mt-2 flex flex-col gap-5">
-            <div className="grid  lg:grid-cols-6 grid-rows-1  ">
+            <div className="ms-5 mt-2 flex flex-col gap-5 text-black">
+            <div className="grid  lg:grid-cols-6 grid-rows-1 text-black ">
               <label>First Name</label>
 
               <input name="firstName" value={formData.firstName}
         onChange={handleChange}
-                className="border-2 border-[#CCCCCC] focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[250px]"
+                className="border-2  border-[#CCCCCC]  bg-slate-300  focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[250px]"
                 type="text"
               />
             
@@ -80,7 +80,7 @@ function Events() {
               <input name="lastName"
                 value={formData.lastName}
                 onChange={handleChange}
-                className="border-2 border-[#CCCCCC] focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[250px]"
+                className="border-2 border-[#CCCCCC]  bg-slate-300  focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[250px]"
                 type="text"
               />
             
@@ -92,7 +92,7 @@ function Events() {
            
               <input name="email" value={formData.email}
         onChange={handleChange}
-                className="border-2 border-[#CCCCCC] focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[250px]"
+                className="border-2 border-[#CCCCCC]  bg-slate-300  focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[250px]"
                 type="email"
               />
             
@@ -104,7 +104,7 @@ function Events() {
            
               <input name="phoneNumber" value={formData.phoneNumber}
         onChange={handleChange}
-                className="border-2  border-[#CCCCCC] focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[250px]"
+                className="border-2  border-[#CCCCCC]  bg-slate-300  focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[250px]"
                 type="number"
               />
             
@@ -113,7 +113,7 @@ function Events() {
             <div className="">
               <h1 className="text-2xl text-[#528C9E]">Your Event Details</h1>
             </div>
-             <div className="ms-5 mt-2 flex flex-col gap-5">
+             <div className="ms-5 mt-2 flex flex-col gap-5 text-black">
              <div className="grid  2 grid-rows-1 ">
                 
                 <label>
@@ -124,7 +124,7 @@ function Events() {
               
                 <textarea  value={formData.eventNature}
         onChange={handleChange}
-                  className="border-2  border-[#CCCCCC] focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded  lg:w-[500px]"
+                  className="border-2  border-[#CCCCCC]  bg-slate-300  focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded  lg:w-[500px]"
                   name="eventNature"
                   id=""
                   cols="30"
@@ -139,7 +139,7 @@ function Events() {
              
                 <input value={formData.eventDate}
         onChange={handleChange} name="eventDate"
-                  className="border-2 border-[#CCCCCC] focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[150px]"
+                  className="border-2 border-[#CCCCCC]  bg-slate-300  focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[150px]"
                   type="date"
                 />
               
@@ -151,7 +151,7 @@ function Events() {
              
                 <input value={formData.startTime}
         onChange={handleChange}
-                  className="border-2 border-[#CCCCCC] focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[150px]"
+                  className="border-2 border-[#CCCCCC]  bg-slate-300  focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[150px]"
                   type="time" name="startTime"
                 />
               
@@ -163,7 +163,7 @@ function Events() {
              
                 <input value={formData.endTime}
         onChange={handleChange}
-                  className="border-2 border-[#CCCCCC] focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[150px]"
+                  className="border-2 border-[#CCCCCC]  bg-slate-300  focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[150px]"
                   type="time" name="endTime"
                 />
               
@@ -175,7 +175,7 @@ function Events() {
              
                 <input value={formData.numberOfPeople}
         onChange={handleChange}
-                  className="border-2 border-[#CCCCCC] focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[150px]"
+                  className="border-2 border-[#CCCCCC]  bg-slate-300  focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded lg:w-[150px]"
                   type="number" name="numberOfPeople"
                 />
               
@@ -189,7 +189,7 @@ function Events() {
               
                 <textarea value={formData.additionalInfo}
         onChange={handleChange}
-                  className="border-2  border-[#CCCCCC] focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded  lg:w-[500px]"
+                  className="border-2  border-[#CCCCCC]  bg-slate-300  focus:border-[#9ACAF0] focus:outline-[#9ACAF0] shadow-xl rounded  lg:w-[500px]"
                   name="additionalInfo"
                   id=""
                   cols="30"
