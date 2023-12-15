@@ -197,7 +197,7 @@ function Events() {
             </div>
              </div>
            <div className="ms-8">
-           <button className="mt-5 px-7 font-[Lato] font-semibold py-2  bg-[#528C9E]"  type="submit">Sumbit</button>
+           <button className="mt-5 px-7 font-[Lato] font-semibold py-2  text-black bg-[#528C9E]"  type="submit">Sumbit</button>
            </div>
               
            
