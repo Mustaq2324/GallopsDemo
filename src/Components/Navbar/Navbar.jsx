@@ -14,7 +14,7 @@ function Navbar() {
       }
   return (
     
-    <div className=" w-full top-0 z-50 overflow-x-hidden bg-[#333333] transition-all duration-500 ">
+    <div className="fixed w-full top-0 z-50 overflow-x-hidden bg-[#333333] transition-all duration-500 ">
             <div className="flex items-center justify-between ">
              <div> <Link to="/"  className="lg:mx-auto">
               <img
@@ -48,6 +48,9 @@ function Navbar() {
                 </li>
                 <li className="text-white cursor-pointer hover:text-[#E8AF33]">
                   <a href="https://www.opentable.com/r/gallos-tap-room-powell"> RESERVE</a>
+                </li>
+                <li className="text-white cursor-pointer hover:text-[#E8AF33]">
+                  <a href="https://www.toasttab.com/gallos-tap-room-bethel-5019-olentangy-river-rd/giftcards?utm_source=undefined&utm_content=online--gallos-tap-room-bethel-5019-olentangy-river-rd&utm_medium=toast_sites&utm_campaign=giftcards"> GIFT CARDS</a>
                 </li>
                 <li className="text-white cursor-pointer hover:text-[#E8AF33]">
                   <a href="https://gallostaproom-powell.hngr.co/menu"> ORDER</a>
@@ -92,6 +95,9 @@ function Navbar() {
                 </li>
                 <li onClick={handleclick} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#E8AF33]">
                   <a href="https://www.opentable.com/r/gallos-tap-room-powell"> RESERVE</a>
+                </li>
+                <li className="text-white mt-2 ms-4 cursor-pointer hover:text-[#E8AF33]">
+                  <a href="https://www.toasttab.com/gallos-tap-room-bethel-5019-olentangy-river-rd/giftcards?utm_source=undefined&utm_content=online--gallos-tap-room-bethel-5019-olentangy-river-rd&utm_medium=toast_sites&utm_campaign=giftcards"> GIFT CARDS</a>
                 </li>
                 <li onClick={handleclick} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#E8AF33]">
                   <a href="https://gallostaproom-powell.hngr.co/menu"> ORDER</a>

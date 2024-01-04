@@ -9,7 +9,7 @@ function MenuList() {
         style={{ backgroundImage: `url(${bg})` }}
       >
         <h1
-          className="font-vast-shadow font-semiboldbold text-[#e8af33] text-4xl pt-10  lg:text-5xl text-center "
+          className="font-vast-shadow font-semibold text-[#B80000] text-4xl pt-10  lg:text-5xl text-center "
           data-aos="flip-up"
         >
           OUR MENU
@@ -26,7 +26,7 @@ function MenuList() {
           <div className="flex flex-col  items-center gap-4">
             <div className="lg:w-[450px] w-[90%] rounded bg-white  flex flex-col gap-5">
               <h1 className="font-vast-shadow text-[#E8AF33] uppercase text-3xl mt-5 text-center">
-                Let's Get Started
+              STARTERS
               </h1>
               <p className=" text-center px-4 lg:text-lg">
                 Gluten free items are prepared in common kitchen with the risk

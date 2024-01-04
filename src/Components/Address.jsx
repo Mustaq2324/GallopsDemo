@@ -8,13 +8,16 @@ function Address() {
         <div className="bg-[#333333] flex flex-col lg:flex-row items-center justify-center lg:justify-evenly gap-9 lg:gap-0 lg:items-start pb-10 pt-10  w-full">
         <div className="text-white flex flex-col items-center  justify-center gap-3">
           <h1 className=" font-vast-shadow  text-2xl text-[#e8af3e]">Hours</h1>
+          <div>
+            <p>Monday- Closed</p>
+          </div>
          <div className="text-center  text-lg ">
-          <p>Sunday - Thursday</p>
-          <p>4:30pm - 10pm</p>
+          <p>Tuesday - Saturday</p>
+          <p>11.30am - 10pm</p>
          </div>
          <div className="text-center">
-          <p>Friday & Saturday</p>
-          <p>4:30pm - 11pm</p>
+          <p> Saturday</p>
+          <p>11:30pm - 9pm</p>
          </div>
           
         </div>

@@ -8,11 +8,9 @@ import Newsletter from "../Components/Newsletter/Newsletter";
 import Online from "../Components/Order/order";
 import Video from "../Components/Video";
 import "../index.css"
-import NavabarHome from "../Components/Navbar/NavbarHome";
 function Home() {
   return (
     <div className="overflow-x-hidden">
-      <NavabarHome/>
     <Video/>
       <Address />
       <About />

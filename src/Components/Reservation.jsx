@@ -85,7 +85,6 @@ function Reservation() {
                 </div>
             </form>
             <img className="text-start w-[100px] lg:mt-5 hidden lg:block" src={logo}/>
-            <img className="text-start w-[100px] lg:mt-5 mt-0 lg:hidden" src={logosm}/>
           </div>
           
         </div>
